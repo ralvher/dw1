@@ -7,7 +7,7 @@
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 		<script type="text/javascript" src="script.js"></script>
 		-->
-		<title>Tenerife Agro</title>
+		<title>e-Cosecha</title>
 		<link rel="shortcut icon" href="./../img/leaf.ico">
 		
 		<!-- Bootstrap -->
@@ -28,7 +28,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="./usuario.php" title="Página de Inicio">Tenerife Agro</a>
+						<a class="navbar-brand" href="./usuario.php" title="Página de Inicio">e-Cosecha</a>
 					
 					</div>
 					<div class="navbar-collapse collapse" style="height: auto;">

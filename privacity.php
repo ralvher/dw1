@@ -6,7 +6,7 @@
 <div class="header col-xs-12 col-lg-12 col-sm-12 ">
 	<div class="rastro col-xs-12 col-lg-12 col-sm-12">
 		<ol class="row breadcrumb">
-			<li><a href="index.php">Tenerife Agro</a></li>
+			<li><a href="index.php">e-Cosecha</a></li>
 			<li class="active">Privacidad</li>
 		</ol>
 	</div>
@@ -15,7 +15,7 @@
 <div class="main col-xs-12 col-sm-12 col-lg-12">
 	<h1 class"titulo"> Privacidad </h1>
 	<p>
-		Tenerife Agro se compromete a proteger su privacidad. Por favor, lea a continuación la política de privacidad.
+		e-Cosecha se compromete a proteger su privacidad. Por favor, lea a continuación la política de privacidad.
 	 	Esta política se aplica a los datos almacenados en nuestra base de datos y abarca:
 	</p>
 	<ul>

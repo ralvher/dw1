@@ -4,7 +4,7 @@
 <div class="header col-sm-12 col-xs-12 col-lg-12">
 	<div class="rastro col-xs-12 col-lg-12 col-sm-12">
 		<ol class="row breadcrumb">
-		  <li><a href="index.php" title="Página de inicio">Tenerife Agro</a></li>
+		  <li><a href="index.php" title="Página de inicio">e-Cosecha</a></li>
 		  <li><a href="mercadillo.php" title="Ir a Mercadillo Virtual">Mercadillo Virtual</a></li>
 		  <li class="active">Semillas</li>
 		</ol> 

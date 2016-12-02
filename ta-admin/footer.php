@@ -4,7 +4,7 @@
 		<div class="foot" id="footer">
 			<div class="container">
 				<p class="text-muted">
-					<a href="./../index.php" target="_blank" title="Tenerife Agro">Tenerife Agro</a> | Copyright 2014. All rights reserved. 										
+					<a href="./../index.php" target="_blank" title="e-Cosecha">e-Cosecha</a> | Copyright 2014. All rights reserved. 										
 				</p>
 				
 			</div>

@@ -45,7 +45,7 @@
 
 <div class="rastro col-xs-12 col-lg-12 col-sm-12">
 	<ol class="row breadcrumb">
-	  <li><a href="./../index.php" title="Página de inicio">Tenerife Agro</a></li>
+	  <li><a href="./../index.php" title="Página de inicio">e-Cosecha</a></li>
 	  <li class="active">administrador</li>
 	</ol>
 </div>
@@ -57,7 +57,7 @@
 		}
 		else{
 			echo '<div class=" col-sm-8  col-lg-8 col-xs-12 col-sm-offset-2 main">';
-				echo '<p class="logo"><img class="img-responsive" alt="logo Tenerife Agro"src="./img/leaf.png"></p>';
+				echo '<p class="logo"><img class="img-responsive" alt="logo e-Cosecha"src="./img/leaf.png"></p>';
 				if(isset($error_login)):
 					echo '<p class="aviso"> El usuario o la contraseña son incorrectos </p>';
 				endif;
