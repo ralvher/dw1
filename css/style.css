@@ -1,18 +1,20 @@
 .cabecera{
 	background: white;
-	background-image: url("../img/agricultura.jpg");
+	background-image: url("../img/logo.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
+	height: 250px;
 	color: inherit;
 	border-radius: 0 0px;
-	
+
 }
 body{
 	font-family: Verdana;
 }
 .cabecera p {
-	font-size: 130%;
-	color: #000000;
-	font-style: italic;
+	font-size: 40px;
+	color: white;
+	text-align: center;
 	font-family: Verdana;
 	text-shadow: 2px 0px 2px rgba(168, 150, 150, 1);
 }
@@ -21,12 +23,12 @@ body{
 	margin-top: 10%;
 	padding-left: 30%;
 	padding-right: 30%;
-	
+
 }
 
 .img-sug{
 	border-radius: 5%;
-	width: auto;	
+	width: auto;
 	max-height: 200px;
 
 }
@@ -45,13 +47,13 @@ body{
 	background-repeat: no-repeat;
 	color: inherit;
 	background-size: 100%;
-	
+
 }
 
 
 .breadcrumb{
 	background: white;
-	text-align: left; 
+	text-align: left;
 }
 
 ol li a{
@@ -85,12 +87,12 @@ ol li a{
 }
 
 .mostrar #tnom{
-	
+
 	font-size: 150%;
 	text-align: left;
 
 }
-.mostrar{	
+.mostrar{
 	padding: 2% 0;
 	border-bottom: solid 1px #F9F9F9;
 }
@@ -112,7 +114,7 @@ ol li a{
 }
 
 .mostrar:hover{
-	background: #F9F9F9;	
+	background: #F9F9F9;
 }
 
 .navbar-header{
@@ -153,11 +155,11 @@ a{
 	float: left;
 	border-radius: 5%;
 	margin-right: 2%;
-	
+
 }
 
 .mercatext{
-	padding: 0 10px;	
+	padding: 0 10px;
 }
 
 .about-us{
@@ -184,7 +186,7 @@ a{
 	float: right;
 }
 .bus{
-	margin-top: 2%;	
+	margin-top: 2%;
 
 }
 
@@ -199,7 +201,7 @@ a{
 }
 
 .form-control:focus {
- 	border-color: #5dab50;  
+ 	border-color: #5dab50;
  }
 
  .form-control {
@@ -208,7 +210,7 @@ a{
 
 
 .spot{	margin-bottom: 5%;
-	
+
 }
 
 .imag-sug{
@@ -262,7 +264,7 @@ a{
 	height: 80px;
 	width: 80px;
 	display: block;
-	
+
 }
 
 .info-new{

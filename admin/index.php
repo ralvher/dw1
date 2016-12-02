@@ -1,13 +1,13 @@
 ﻿<?php session_start();
-	include('./header.php');	
-  	
+	include('./header.php');
+
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-		
+
         $nombre = $_POST['usuario'];
         $pass = $_POST['pass'];
-		
+
 		try {
-			$db = new PDO("sqlite:./../agro.sqlite");	
+			$db = new PDO("sqlite:./../agro.sqlite");
 		}
 		catch (PDOException $e) {
 			echo $e->getMessage();
@@ -16,16 +16,16 @@
 
 		$consulta = $db->query("SELECT * FROM admin WHERE usuario LIKE '$nombre'");
 		$result = $consulta->fetch(PDO::FETCH_ASSOC);
-		
+
         //Creamos una variable para verificar si el usuario con ese nombre y contraseña existe.
         $usuario_encontrado = false;
-        
+
 		//Si encuentra al usuario con ese nombre y contraseña sete la variable $usuario_encontrado a true y rompe el bucle para no seguir buscando.
 		if($result['password'] == $pass){
 			$usuario_encontrado = true;
 			//break;
 		}
-        
+
         //Verifica si dentro del bucle se ha encontrado el usuario.
         if($usuario_encontrado){
             $_SESSION['logueado'] = true;
@@ -50,14 +50,14 @@
 	</ol>
 </div>
 
-<?php 
+<?php
 		if( $_SESSION['logueado'] == true){
 			header('Location: usuario.php');
             exit;
 		}
 		else{
 			echo '<div class=" col-sm-8  col-lg-8 col-xs-12 col-sm-offset-2 main">';
-				echo '<p class="logo"><img class="img-responsive" alt="logo e-Cosecha"src="./img/leaf.png"></p>';
+				echo '<p class="logo"><img class="img-responsive" alt="logo e-Cosecha"src="./img/fresa.png" style="width: 100px;"></p>';
 				if(isset($error_login)):
 					echo '<p class="aviso"> El usuario o la contraseña son incorrectos </p>';
 				endif;
@@ -71,6 +71,6 @@
 			echo'</div>';
 		}
 ?>
-<?php	
+<?php
 	include('./footer.php');
 ?>

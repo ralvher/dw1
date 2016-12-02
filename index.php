@@ -7,7 +7,6 @@
 	    <div class="col-sm-12 col-xs-12 col-lg-12">
 
 				<div class="cabecera jumbotron">
-					<img class="img-responsive" src="./img/logo_1.gif" alt="Logotipo e-Cosecha">
 					<p class="logo">Las mejores ofertas en productos <br> Lider en el mercado</p>
 				</div>
 
@@ -21,10 +20,10 @@
 		<div class="conocenos">
 			<h4 class="titles">Conócenos</h4>
 			<p>
-				Somos uno de los mayores mercados agrícolas en Tenerife con más de 100 puestos de venta distribuidos en toda la isla. Fundado en 1.980, en el Barrio de San Juan, y desde entonces ofrecemos al curtido campesino la posibilidad de comerciar sus productos agrícolas sin la intervención de intermediarios.
+				Somos uno de los mayores mercados agrícolas en Madrid con más de 100 puestos de venta. Fundado en 1.980, en el Barrio de Tetuán, y desde entonces ofrecemos al curtido campesino la posibilidad de comerciar sus productos agrícolas sin la intervención de intermediarios.
 			</p>
 			<p>
-				En los diferentes puestos se ponen a la venta los productos naturales de la zona: frutas, verduras, pescados, así como otros productos de elaboración artesanal: repostería, queso, miel, vino. que perpetúan la tradición artesana de Tenerife.
+				En los diferentes puestos se ponen a la venta los productos naturales de la zona: frutas, verduras, semillas...
 			</p>
 		</div>
 	</div>
@@ -74,7 +73,7 @@
 
 
 	echo '<div>';
-		echo '<a class="btn btn-default btn-sm price col-sm-12 col-xs-12 col-lg-12" title="ver más" href="mercadillo.php" target="blank_" role="button"> Ver más </a>';
+		echo '<a class="btn btn-default btn-sm price col-sm-12 col-xs-12 col-lg-12" title="ver más" href="mercadillo.php" role="button"> Ver más </a>';
 	echo '</div>';
 ?>
 

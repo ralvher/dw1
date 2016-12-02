@@ -71,9 +71,7 @@
 	<div class="row-offcanvas row-offcanvas-right">
 	    <div class="col-sm-12 col-xs-12 col-lg-12">
 			<div>
-				<!--<div class="map jumbotron">-->
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14027.698326967024!2d-16.320641439122884!3d28.481817833954203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc41cdba537612d1%3A0xd2b94248483a7c7f!2sEscuela+T%C3%A9cnica+Superior+de+Ingenier%C3%ADa+Inform%C3%A1tica+de+la+Universidad+de+la+Laguna!5e0!3m2!1ses!2ses!4v1400519155367" scrolling="auto" name="mapa de localizacion" width="100%" height="auto" frameborder="0" style="border:1"></iframe>
-				<!--</div>-->
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.595905565093!2d-3.7139572850074143!3d40.43994597936247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42285b16c81d07%3A0xeea3756a041afde6!2sAv.+de+Filipinas%2C+3%2C+28003+Madrid!5e0!3m2!1ses!2ses!4v1480680394212" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>
@@ -89,17 +87,17 @@
 		<div class="red-cont">
 			<h4>Redes Sociales</h4>
 			<div class="facebook col-sm-4 col-xs-4 col-lg-4">
-				<a href="http://www.facebook.com/TenerifeAgro" title="facebook" target="_blank">
+				<a href="http://www.facebook.com/e-Cosecha" title="facebook" target="_blank">
 					<img class="img-responsive" src="./img/facebook.png" alt="facebook" >
 				</a>
 			</div>
 			<div class="twitter col-sm-4 col-xs-4 col-lg-4">
-				<a href="http://www.twitter.com/TenerifeAgro" title="twitter" target="_blank">
+				<a href="http://www.twitter.com/e-Cosecha" title="twitter" target="_blank">
 					<img class="img-responsive" src="./img/twitter.png" alt="twitter" >
 				</a>
 			</div>
 			<div class="google col-sm-4 col-xs-4 col-lg-4">
-				<a href="http://www.googleplus.com/TenerifeAgro" title="google plus" target="_blank">
+				<a href="http://www.googleplus.com/e-Cosecha" title="google plus" target="_blank">
 					<img class="img-responsive" src="./img/google.png" alt="google" >
 				</a>
 			</div>
