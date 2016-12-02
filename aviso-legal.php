@@ -15,7 +15,7 @@
 <div class="main col-xs-12 col-sm-12 col-lg-12">
 	<h1 class"titulo"> Aviso Legal </h1>
 	<p>
-		La información, imágenes y otro material relevante producido por el personal autorizado(administradores y otros responsables del sistema) están sujetos a ©Copyright e-Cosecha 2014. Se permite la copia del material publicado en este sistema para uso personal y no comercial siempre que en toda copia conste el copyright y otros avisos de la propiedad o cualquier información legal que este contenga.
+		La información, imágenes y otro material relevante producido por el personal autorizado(administradores y otros responsables del sistema) están sujetos a ©Copyright e-Cosecha 2016. Se permite la copia del material publicado en este sistema para uso personal y no comercial siempre que en toda copia conste el copyright y otros avisos de la propiedad o cualquier información legal que este contenga.
 	</p>
 	<p>
 		De acuerdo con esto, el usuario reconoce que cualquier confiabilidad ante la información y el material que se facilita se harán por su propia cuenta y riesgo. No existe garantía de ningún tipo, ni expresa ni implícita, en relación con este sistema o sus enlaces con otros sitios web.
