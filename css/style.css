@@ -1,0 +1,315 @@
+.cabecera{
+	background: white;
+	background-image: url("../img/agricultura.jpg");
+	background-repeat: no-repeat;
+	color: inherit;
+	border-radius: 0 0px;
+	
+}
+body{
+	font-family: Verdana;
+}
+.cabecera p {
+	font-size: 130%;
+	color: #000000;
+	font-style: italic;
+	font-family: Verdana;
+	text-shadow: 2px 0px 2px rgba(168, 150, 150, 1);
+}
+
+.price{
+	margin-top: 10%;
+	padding-left: 30%;
+	padding-right: 30%;
+	
+}
+
+.img-sug{
+	border-radius: 5%;
+	width: auto;	
+	max-height: 200px;
+
+}
+
+.red-cont{
+	margin-top: 5%;
+}
+
+
+.row{
+	margin-top: 10%;
+}
+
+.map{
+	background-image: url("../img/contact.jpg");
+	background-repeat: no-repeat;
+	color: inherit;
+	background-size: 100%;
+	
+}
+
+
+.breadcrumb{
+	background: white;
+	text-align: left; 
+}
+
+ol li a{
+	color:green;
+}
+
+.pagination > li > a, .pagination > li > span {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    color: green;
+    float: left;
+    line-height: 1.42857;
+    margin-left: -1px;
+    padding: 6px 12px;
+    position: relative;
+    text-decoration: none;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #008000;
+    border-color: #008000;
+    color: #FFFFFF;
+    cursor: default;
+    z-index: 2;
+}
+
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+    background-color: #EEEEEE;
+    border-color: #DDDDDD;
+    color: green;
+}
+
+.mostrar #tnom{
+	
+	font-size: 150%;
+	text-align: left;
+
+}
+.mostrar{	
+	padding: 2% 0;
+	border-bottom: solid 1px #F9F9F9;
+}
+
+.mostrar .info{
+
+	padding-left: 10%;
+}
+
+.orden{
+	margin-top: 3.2%;
+}
+
+.mostrar img{
+
+	max-height: 150px;
+	max-width: 150px;
+
+}
+
+.mostrar:hover{
+	background: #F9F9F9;	
+}
+
+.navbar-header{
+	left: -5%;
+}
+
+.mf{
+	height: 50px;
+}
+
+a{
+	color:green;
+}
+
+.noticia img{
+	border-radius: 5%;
+	float: left;
+	width: auto;
+	margin-right: 2%;
+}
+
+.fnew{
+	text-align: right;
+}
+.noticia{
+	border-top: 1px dotted #EAEAEA;
+	margin-bottom: 5%;
+	border-bottom: 1px dotted #EAEAEA;
+	 padding: 0px 20px;
+}
+
+.noticia:hover{
+	background: #F9F9F9;
+}
+
+
+.merca{
+	float: left;
+	border-radius: 5%;
+	margin-right: 2%;
+	
+}
+
+.mercatext{
+	padding: 0 10px;	
+}
+
+.about-us{
+	margin: 2% 0%;
+	padding: 0px 5px;
+}
+
+.about-merca{
+	margin: 2% 10%;
+}
+
+.obligatorio {
+	font-size: 10px;
+	color: green;
+	font-weight: normal;
+}
+
+.busq{
+
+	font-weight: bold;
+}
+.vermas{
+
+	float: right;
+}
+.bus{
+	margin-top: 2%;	
+
+}
+
+.bus:hover{
+
+	background: #F9F9F9;
+}
+
+.no{
+
+	font-style: italic;
+}
+
+.form-control:focus {
+ 	border-color: #5dab50;  
+ }
+
+ .form-control {
+  color: #7D7D7D;
+  }
+
+
+.spot{	margin-bottom: 5%;
+	
+}
+
+.imag-sug{
+	padding: 0 0%;
+}
+
+
+.titulo{
+	font-style: italic;
+}
+
+.titles{
+	font-style: italic;
+	font-weight: bold;
+}
+
+.ver-news{
+	text-align: right;
+	padding: 0 0%;
+	margin-top: 2%;
+	font-style: italic;
+}
+
+.titular-index{
+
+	margin-bottom: 2%;
+	padding: 0 0px;
+}
+
+.fecha{
+	padding: 0 0;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 2%;
+}
+
+.tit-ind{
+	color: green;
+	padding: 0 0%;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.titulares-index{
+
+	margin-top: 5%;
+	padding: 0 0%;
+}
+
+.im-ind{
+	height: 80px;
+	width: 80px;
+	display: block;
+	
+}
+
+.info-new{
+	padding: 0px 0px;
+}
+
+.info-new img{
+	border-radius: 5%;
+	float: left;
+	width: auto;
+	margin-right: 2%;
+}
+
+.img-news{
+	max-width: 400px;
+	max-height: 300px;
+}
+
+.breadcrumb > .active {
+    color: #555555;
+}
+
+.text-muted {
+    color: #A0522D;
+}
+
+.priv{
+	margin-top: 5%;
+}
+
+.titulo{
+	margin-top: -10%;
+}
+
+.map-w{
+	margin-bottom: 5%;
+}
+.mw{
+	margin-top: 5%;
+}
+
+}
+.eye{
+	margin-bottom: 10%;
+}
+
+.prod{
+	max-width: 180px;
+	height: auto;
+}

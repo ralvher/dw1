@@ -1,0 +1,126 @@
+.row{
+	margin-top:10%;
+	
+}
+.breadcrumb{
+	background: white;
+}
+.aviso{
+	color: red;
+	text-align:center; 
+}
+.breadcrumb a{
+	color: green;
+}
+
+body{
+	font-family: Verdana;
+}
+.logo{
+	margin-left: 35%;
+}
+
+a{
+	color: green;
+}
+
+.header{
+	margin-top: 8%;
+	text-align: right;
+}
+
+
+
+.tab-pane{
+margin-top: 2%;
+}
+
+.add{
+	margin-bottom: 10%;
+}
+
+.cambiar{
+	margin-bottom: 10%;
+}
+.addp{
+	margin-bottom: 10%;
+}
+
+
+#pimagen{
+	font-size: 75%;
+}
+
+
+.adduser{
+	margin-bottom: 2%;
+}
+
+.tit{
+	font-style:italic;
+	color: green;
+}
+
+.res{	
+	border-bottom:1px solid #EAEAEA;
+	padding: 0 0px;
+
+}
+
+.res:hover{	
+	background: #F9F9F9;
+}
+.addp:hover{	
+	background: #F9F9F9;
+}
+.cambiar:hover{	
+	background: #F9F9F9;
+}
+
+.feliminar:hover{	
+	background: #F9F9F9;
+}
+
+ .welcome h4{
+	text-align: right;
+}
+
+.avatar{
+	max-width: 150px;
+	max-height: 150px;
+	float: right;
+}
+
+.form-control:focus {
+  	border-color: #5dab50;
+ }
+
+ .form-control {
+  	color: #7D7D7D;
+  }
+
+  .mensajes{
+  	padding-left: 0px;
+  	padding-right: 0px;
+  	margin: 0 0px;
+  }
+
+  .visto{
+  	margin-bottom: 5%;
+  }
+
+ .eye{
+	margin-bottom: 5%;
+	text-align: right;
+}
+
+
+ .eye-c{
+	
+	text-align: right;
+}
+
+ .eye-c:hover{
+	
+	color: green;
+}
