@@ -4,12 +4,12 @@
      $result = false;
      $noresult = false;
 	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-		
+
         $nombre = $_POST['fnombre'];
         $email = $_POST['femail'];
 		$telefono = $_POST['ftelefono'];
         $texto= $_POST['ftexto'];
-	
+
 		try {
 			$db = new PDO("sqlite:./agro.sqlite");
 		}
@@ -17,7 +17,7 @@
 			echo $e->getMessage();
 			exit();
 		}
-		
+
 		try {
 			$insert = "INSERT INTO contacto(nombre, email, telefono, comentario) VALUES (:nombre, :email, :telefono, :texto)";
 			//$result = $db->exec("INSERT INTO contacto(nombre, email, telefono, comentario) VALUES ('$nombre', '$email', '$telefono', '$texto')");
@@ -76,15 +76,15 @@
 				<!--</div>-->
 			</div>
 		</div>
-	</div> 
+	</div>
 </div>
 
 <div class="main col-sm-12 col-xs-12 col-lg-12">
 	<div class="info col-sm-4">
 		<div>
 			<h4>Informacion de contacto</h4>
-			<i>telefono:</i><i> 922000000 </i>
-			<i>email:</i><i> tfagro@tf.net</i>
+			<i>telefono:</i><i> 91000000 </i>
+			<i>email:</i><i> ecosecha@ecosecha.com</i>
 		</div>
 		<div class="red-cont">
 			<h4>Redes Sociales</h4>
@@ -104,7 +104,7 @@
 				</a>
 			</div>
 		</div>
-		
+
 	</div>
 	<div class="cont col-sm-8">
 		<h4>Contacta con nosotros</h4>
@@ -130,8 +130,8 @@
 
 	</div>
 </div>
-	
 
-<?php	
+
+<?php
 	include('./footer.php');
 ?>

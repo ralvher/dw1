@@ -44,8 +44,6 @@
 		<ul class="nav nav-tabs">
 			<li class="<?php echo $active1; ?>" ><a href="#casa" title="inicio" data-toggle="tab">Inicio</a></li>
 			<li class=" <?php echo $active2; ?> "><a href="#productos" title="productos" data-toggle="tab">Productos</a></li>
-			<li class="<?php echo $active3; ?> "><a href="#news"  title="noticias" data-toggle="tab">Noticias</a></li>
-			
 			<?php
 				if($nombre == 'admin'){
 					echo '<li class="'.$active4.'"><a href="#reservas" title="pedidos" data-toggle="tab">Reservas</a></li>';
