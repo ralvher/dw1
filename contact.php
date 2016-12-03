@@ -106,24 +106,24 @@
 	</div>
 	<div class="cont col-sm-8">
 		<h4>Contacta con nosotros</h4>
-		<form role="form" action="contact.php" method="POST">
+		<form role="form" action="contact.php" method="POST" name="contancto">
 			<div class="form-group">
 				<label>Nombre <i class="obligatorio">obligatorio</i></label>
-				<input type="text" class="form-control" name="fnombre" placeholder="Introduzca su nombre"  title="Nombre" required>
+				<input type="text" class="form-control" name="fnombre" placeholder="Introduzca su nombre"  title="Nombre" id="fnombre">
 			</div>
 			<div class="form-group">
 				<label>Email <i class="obligatorio">obligatorio</i></label>
-				<input type="email" class="form-control" name="femail" placeholder="Introduzca su email" title="email" required>
+				<input type="email" class="form-control" name="femail" placeholder="Introduzca su email" title="email" id="femail">
 			</div>
 			<div class="form-group">
 				<label>Teléfono <i class="obligatorio">obligatorio</i> </label>
-				<input type="TEL" class="form-control" name="ftelefono" placeholder="Introduzca su teléfono" title="telefono" required>
+				<input type="TEL" class="form-control" name="ftelefono" placeholder="Introduzca su teléfono" title="telefono" id="ftelefono" >
 			</div>
 			<div class="form-group">
 				<label>Mensaje <i class="obligatorio">obligatorio</i> </label>
-				<textarea class="form-control" name="ftexto" rows="3"  title="mensaje" required></textarea>
+				<textarea class="form-control" name="ftexto" rows="3"  title="mensaje" id="ftexto"></textarea>
 			</div>
-			<button type="submit" class="btn btn-default" title="Enviar">Enviar</button>
+			<button type="submit" onclick="comprobar(); return false;" class="btn btn-default" title="Enviar">Enviar</button>
 		</form>
 
 	</div>
@@ -133,3 +133,5 @@
 <?php
 	include('./footer.php');
 ?>
+
+<script src="js/contacto.js"></script>
